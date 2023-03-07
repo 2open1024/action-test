@@ -1,5 +1,12 @@
 name: Hello World
-# on: push
+on:
+  repository_dispatch:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 jobs:
   my_first_job:
     name: My first job
