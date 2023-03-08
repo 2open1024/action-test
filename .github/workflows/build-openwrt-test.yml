@@ -1,4 +1,4 @@
-name: Build Openwrt
+name: Build Openwrt test
 on:
   repository_dispatch:
   workflow_dispatch:
