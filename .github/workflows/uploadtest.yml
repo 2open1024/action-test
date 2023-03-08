@@ -1,4 +1,4 @@
-name: Build Openwrt
+name: uploadtest
 on:
   repository_dispatch:
   workflow_dispatch:
